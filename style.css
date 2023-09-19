@@ -19,7 +19,7 @@ body{
 #dino{
     width: 250px;
     height: 200px;
-    background-image: url(t-rex.png);
+    background-image: url(Assets/t-rex.png);
     background-size: 245px 197px;
     position: relative;
     top: 250px;
@@ -30,7 +30,7 @@ body{
     background-repeat: no-repeat;
     position: relative;
     top: 127px;
-    background-image: url(po.png);
+    background-image: url(Assets/po.png);
     background-size: 195px 120px;
     animation: cactus-block 1.2s infinite linear;
 }
