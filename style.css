@@ -34,6 +34,15 @@ body{
     background-size: 195px 120px;
     animation: cactus-block 1.2s infinite linear;
 }
+#scoreCard{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 5px red;
+}
 @keyframes jump{
     0%{
         top: 143px;

@@ -6,6 +6,8 @@ function jump(){
         dino.classList.add("jump");
         setTimeout(function(){
             dino.classList.remove("jump");
+            score++;
+            document.getElementById("scoreCard").textContent = `Score: ${score}`;
         },1000)
     }
 }
