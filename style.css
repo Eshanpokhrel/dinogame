@@ -68,3 +68,15 @@ body{
         left: -20px;
     }
 }
+@media screen and (max-width:550px) {
+    body{
+        rotate: 90deg;
+        height: auto;
+    }  
+    .game{
+        width: 100vw;
+        margin: auto;
+        background: none;
+        box-shadow: none;
+    }
+}
