@@ -1,6 +1,8 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
 let score = 0;
+let highscore = 0;
+
 function jump(){
     if(dispatchEvent.classList!="jump"){
         dino.classList.add("jump");
@@ -18,6 +20,8 @@ let checkAlive = setInterval(function(){
     if(cactusLeft > 0 && cactusLeft < 70 && dinoTop >= 143){
         dino.style.animationPlayState = 'paused';
         cactus.style.animationPlayState = 'paused';
+        highscore = score;
+        document.getElementById("highScoreCard").textContent = `HighScore: ${highscore}`;
         alert("Game Over!!!");
         window.location.reload();
     }

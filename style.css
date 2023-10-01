@@ -43,6 +43,15 @@ body{
     color: black;
     text-shadow: 2px 2px 5px red;
 }
+#highScoreCard{
+    position: absolute;
+    top: 55px;
+    right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 5px red;
+}
 @keyframes jump{
     0%{
         top: 143px;
